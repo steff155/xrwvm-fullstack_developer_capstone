@@ -138,6 +138,9 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Sentiment analyzer URL
+SENTIMENT_ANALYZER_URL = 'http://localhost:5050/'
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'frontend/static'),
     os.path.join(BASE_DIR, 'frontend/build'),
