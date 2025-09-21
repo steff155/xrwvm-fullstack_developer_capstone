@@ -12,6 +12,8 @@ path(route='add_review', view=views.add_review, name='add_review'),
 path(route='get_cars', view=views.get_cars, name='getcars'),
 
 
+
+
     # # path for registration
 
     # path for login
